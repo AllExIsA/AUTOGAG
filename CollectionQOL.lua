@@ -40,7 +40,7 @@ UserInputService.InputBegan:Connect(function(arg1, arg2) -- Line 34
 		[1]: var2_upvw (read and write)
 		[2]: var3_upvw (read and write)
 	]]
-	if arg1.UserInputType == Enum.UserInputType.Keyboard or arg1.UserInputType == Enum.UserInputType.Gamepad1 or arg1.KeyCode == Enum.KeyCode.E or arg1.KeyCode == Enum.KeyCode.ButtonX then
+	if arg1.UserInputType == Enum.UserInputType.Keyboard or arg1.UserInputType == Enum.UserInputType.Gamepad1 or arg1.KeyCode == Enum.KeyCode.F or arg1.KeyCode == Enum.KeyCode.ButtonX then
 		var2_upvw = true
 		task.wait(0.1)
 		if var2_upvw then
@@ -53,7 +53,7 @@ UserInputService.InputEnded:Connect(function(arg1, arg2) -- Line 50
 		[1]: var2_upvw (read and write)
 		[2]: var3_upvw (read and write)
 	]]
-	if arg1.UserInputType == Enum.UserInputType.Keyboard or arg1.UserInputType == Enum.UserInputType.Gamepad1 or arg1.KeyCode == Enum.KeyCode.E or arg1.KeyCode == Enum.KeyCode.ButtonX then
+	if arg1.UserInputType == Enum.UserInputType.Keyboard or arg1.UserInputType == Enum.UserInputType.Gamepad1 or arg1.KeyCode == Enum.KeyCode.F or arg1.KeyCode == Enum.KeyCode.ButtonX then
 		var2_upvw = false
 		var3_upvw = false
 	end
